@@ -7,7 +7,7 @@ import pytz  # Make sure to install pytz if you haven't already
 # Set the page configuration with custom favicon
 st.set_page_config(
     page_title="Birthday Baby",  # Your custom title
-    page_icon="/Users/varunreddym/Desktop/bday/icon.ico"  # Replace with the path to your favicon
+    page_icon="icon.ico"  # Replace with the path to your favicon
 )
 
 # Create a session state variable to track login status
@@ -159,7 +159,7 @@ else:
     if tab == "Memories":
         st.header("Its Baby sindhu to big sindhu😂")
         st.write("See this cute papa")
-        video_path = "https://drive.google.com/uc?id=1WazHaPnmkKSBuQEjyazJpCL6pJZfNiUe"  # Path to your local video file
+        video_path = "https://drive.google.com/file/d/1WazHaPnmkKSBuQEjyazJpCL6pJZfNiUe/view?usp=drive_link"  # Path to your local video file
 
         # Display loading message while the video loads
         with st.spinner("Sorry papa wait chey...🤧"):
