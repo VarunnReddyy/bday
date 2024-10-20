@@ -149,7 +149,7 @@ else:
         
         st.markdown('<div class="content">Its your Birthday papa ivala 🥳</div>', unsafe_allow_html=True)
         st.write("I’m so excited to share this with you papaaa...")
-        st.image("https://github.com/VarunnReddyy/bday/edit/main/videotest.py#:~:text=welcomepage-,.,-jpeg")  # Specific image for the Welcome tab
+        st.image("welcomepage.jpeg")  # Specific image for the Welcome tab
 
     else:
         # For other tabs, display only their content
@@ -169,7 +169,7 @@ else:
     elif tab == "Music":
         st.header("I learnt this papa to surprise you🙂‍↔️")
         st.write("And btw adhe antha perfect m kadhu edho nka nak ochinattu try chesina nak 🫣")
-        video_path_music = "/Users/varunreddym/Desktop/bday/music.mp4"  # Path to music video
+        video_path_music = "music.mp4"  # Path to music video
 
         # Display loading message while the video loads
         with st.spinner("Sorry papa wait chey...🤧"):
