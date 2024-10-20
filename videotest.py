@@ -20,7 +20,7 @@ def login():
     
     # Ask a fun question as a text input instead of MCQ
     st.write("To enter, answer this question correctly:")
-    question = st.text_input("Whom i admire the most?(enter both first and lastname with a space in between and also wait for 2 to 3 mins after correctly entering the answer)")
+    question = st.text_input("Whom i admire the most?(enter both first and lastname with a space in between and also if it says correct answer press R or top right corner you can find an option rerun click it )")
 
     # Convert both input and the correct answer to lowercase for comparison
     if question:
@@ -149,7 +149,7 @@ else:
         
         st.markdown('<div class="content">Its your Birthday papa ivala 🥳</div>', unsafe_allow_html=True)
         st.write("I’m so excited to share this with you papaaa...")
-        st.image("/Users/varunreddym/Desktop/bday/welcomepage.jpeg")  # Specific image for the Welcome tab
+        st.image("https://github.com/VarunnReddyy/bday/edit/main/videotest.py#:~:text=welcomepage-,.,-jpeg")  # Specific image for the Welcome tab
 
     else:
         # For other tabs, display only their content
