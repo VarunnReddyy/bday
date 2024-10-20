@@ -159,7 +159,7 @@ else:
     if tab == "Memories":
         st.header("Its Baby sindhu to big sindhu😂")
         st.write("See this cute papa")
-        video_path = "https://drive.google.com/file/d/1WazHaPnmkKSBuQEjyazJpCL6pJZfNiUe/view?usp=drive_link"  # Path to your local video file
+        video_path = "memory lane1.mp4"  # Path to your local video file
 
         # Display loading message while the video loads
         with st.spinner("Sorry papa wait chey...🤧"):
@@ -179,7 +179,7 @@ else:
     elif tab == "Special Wishes":
         st.header("Special Birthday Wishes")
         st.write("Just a few pictures of us together :)")
-        video_splwishes_path="https://drive.google.com/uc?id=1d_Gw4x9e1HsA4rkpmt_G2cs3wHijwT4i"
+        video_splwishes_path="splwishes1.mp4"
         # st.video("/Users/varunreddym/Desktop/bday/splwishes.mp4")  
         # Display loading message while the video loads
         with st.spinner("Sorry papa wait chey...🤧"):
